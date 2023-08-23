@@ -1,0 +1,24 @@
+.Shopping-container {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 2rem
+}
+
+.ShoppingItem {
+    background-color: #cccccc3f;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1rem;
+    transition: transform .3s;
+}
+
+.ShoppingItem img {
+    width: 100%;
+    height: 14rem;
+}
+
+.ShoppingItem:hover {
+    transform: scale(1.1);
+}
